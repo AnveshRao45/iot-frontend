@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+     # Industrial IoT Platform Frontend
+
+     A React frontend for an Industrial IoT platform, displaying real-time telemetry via WebSocket and Recharts.
+
+     ## Setup
+     1. Clone the repository:
+        ```bash
+        git clone https://github.com/your-username/iot-frontend.git
+        ```
+     2. Install dependencies:
+        ```bash
+        npm install
+        ```
+     3. Run the application:
+        ```bash
+        npm start
+        ```
+
+     ## Routes
+     - `/login`: JWT authentication.
+     - `/devices`: Device management and telemetry sending.
+     - `/telemetry/:deviceId`: Device-specific telemetry dashboard.
+     ```
